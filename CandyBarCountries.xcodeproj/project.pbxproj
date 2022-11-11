@@ -13,6 +13,10 @@
 		B72497162917298500C48142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72497152917298500C48142 /* Preview Assets.xcassets */; };
 		B72497182917298500C48142 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72497172917298500C48142 /* Persistence.swift */; };
 		B724971B2917298500C48142 /* CandyBarCountries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B72497192917298500C48142 /* CandyBarCountries.xcdatamodeld */; };
+		B724972529172D4E00C48142 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724972129172D4E00C48142 /* Candy+CoreDataClass.swift */; };
+		B724972629172D4E00C48142 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724972229172D4E00C48142 /* Candy+CoreDataProperties.swift */; };
+		B724972729172D4E00C48142 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724972329172D4E00C48142 /* Country+CoreDataClass.swift */; };
+		B724972829172D4E00C48142 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724972429172D4E00C48142 /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		B72497152917298500C48142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B72497172917298500C48142 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B724971A2917298500C48142 /* CandyBarCountries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CandyBarCountries.xcdatamodel; sourceTree = "<group>"; };
+		B724972129172D4E00C48142 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B724972229172D4E00C48142 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B724972329172D4E00C48142 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B724972429172D4E00C48142 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,10 @@
 		B724970D2917298400C48142 /* CandyBarCountries */ = {
 			isa = PBXGroup;
 			children = (
+				B724972929172F7500C48142 /* CoreData */,
 				B724970E2917298400C48142 /* CandyBarCountriesApp.swift */,
 				B72497102917298400C48142 /* ContentView.swift */,
 				B72497122917298500C48142 /* Assets.xcassets */,
-				B72497172917298500C48142 /* Persistence.swift */,
-				B72497192917298500C48142 /* CandyBarCountries.xcdatamodeld */,
 				B72497142917298500C48142 /* Preview Content */,
 			);
 			path = CandyBarCountries;
@@ -71,6 +78,19 @@
 				B72497152917298500C48142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B724972929172F7500C48142 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B724972129172D4E00C48142 /* Candy+CoreDataClass.swift */,
+				B724972229172D4E00C48142 /* Candy+CoreDataProperties.swift */,
+				B724972329172D4E00C48142 /* Country+CoreDataClass.swift */,
+				B724972429172D4E00C48142 /* Country+CoreDataProperties.swift */,
+				B72497172917298500C48142 /* Persistence.swift */,
+				B72497192917298500C48142 /* CandyBarCountries.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72497182917298500C48142 /* Persistence.swift in Sources */,
+				B724972529172D4E00C48142 /* Candy+CoreDataClass.swift in Sources */,
 				B72497112917298400C48142 /* ContentView.swift in Sources */,
+				B724972629172D4E00C48142 /* Candy+CoreDataProperties.swift in Sources */,
+				B724972829172D4E00C48142 /* Country+CoreDataProperties.swift in Sources */,
+				B724972729172D4E00C48142 /* Country+CoreDataClass.swift in Sources */,
 				B724971B2917298500C48142 /* CandyBarCountries.xcdatamodeld in Sources */,
 				B724970F2917298400C48142 /* CandyBarCountriesApp.swift in Sources */,
 			);
